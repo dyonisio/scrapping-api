@@ -1,0 +1,29 @@
+{
+  "name": "scrapping-api",
+  "version": "1.0.0",
+  "description": "A API to scrape a lot of things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyonisio/scrapping-api.git"
+  },
+  "author": "Mateus Dyonisio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyonisio/scrapping-api/issues"
+  },
+  "homepage": "https://github.com/dyonisio/scrapping-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "puppeteer": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
