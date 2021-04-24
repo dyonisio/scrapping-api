@@ -1,11 +1,11 @@
 {
-  "name": "scrapping-api",
+  "name": "scraping-api",
   "version": "1.0.0",
   "description": "A API to scrape a lot of things",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
